@@ -1,0 +1,6 @@
+{
+    "name": "JCCC .NET Environment",
+    "id": "jccc-dotnet-env",
+    "version": "1.0.1",
+    "description": "Installs all standard extensions for JCCC .NET courses."
+}
