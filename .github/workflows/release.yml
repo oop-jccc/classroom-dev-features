@@ -3,9 +3,12 @@ on:
   push:
     branches:
       - main
+
 jobs:
   release:
     runs-on: ubuntu-latest
+    # This 'permissions' block is the fix.
+    # It explicitly gives the job permission to write to the package registry.
     permissions:
       contents: read
       packages: write
