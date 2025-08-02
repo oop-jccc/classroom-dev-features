@@ -1,6 +1,35 @@
 {
     "name": "JCCC .NET Environment",
     "id": "jccc-dotnet-env",
-    "version": "1.0.1",
-    "description": "Installs all standard extensions for JCCC .NET courses."
+    "version": "1.0.2",
+    "description": "Installs all standard extensions for JCCC .NET courses.",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csharp",
+                "ms-dotnettools.csdevkit",
+                "ms-dotnettools.vscode-dotnet-runtime",
+                "ms-dotnettools.dotnet-interactive-vscode",
+                "ms-vscode.vscode-json",
+                "ms-vscode.powershell",
+                "GitHub.vscode-pull-request-github",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "formulahendry.dotnet-test-explorer",
+                "kreative-software.csharpextensions",
+                "adrianwilczynski.namespace",
+                "patcx.vscode-nuget-gallery",
+                "fernandoescolar.vscode-solution-explorer",
+                "ms-vscode.test-adapter-converter",
+                "ryanluker.vscode-coverage-gutters",
+                "humao.rest-client",
+                "bradlc.vscode-tailwindcss",
+                "esbenp.prettier-vscode",
+                "redhat.vscode-xml",
+                "ms-vscode.hexdump",
+                "ms-vscode.vscode-typescript-next",
+                "septag.visual-assist-dark"
+            ]
+        }
+    }
 }
